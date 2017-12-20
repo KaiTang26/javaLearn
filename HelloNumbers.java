@@ -3,7 +3,7 @@ public class HelloNumbers{
         int x =0;
 
         while(x<10){
-            System.out.println(x);
+            System.out.print(x);
             x+=1;
         }
 
