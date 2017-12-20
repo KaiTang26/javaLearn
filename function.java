@@ -1,5 +1,5 @@
 public class function{
-/** this is function in java*/ 
+/** this is function*/ 
     public static int larger(int x , int y){
         if (x > y){
             return x;
