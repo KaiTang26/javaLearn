@@ -17,13 +17,28 @@ public class SLList {
 
     private Lnode first;
 
+    private int count;
+
     public SLList(int num){
         first = new Lnode(num, null);
+
+        count =1;
+    }
+
+//    create a constructor for empty list
+
+    public SLList(){
+
+        first = new Lnode(666,null);
+
+        count=0;
     }
 
     public void addFirst(int num){
 
         first = new Lnode(num, first);
+
+        count++;
 
     }
 
@@ -40,6 +55,8 @@ public class SLList {
         }
 
         holder.next=new Lnode(num, null);
+
+        count++;
     }
 
     public int size(){
@@ -55,18 +72,31 @@ public class SLList {
         return count;
     }
 
+//    the sizeFast method used to return the count value
+
+    public int sizeFast(){
+
+        return count;
+    }
+
+
     public static void main(String[] args){
 
-        SLList p = new SLList(12);
+        SLList p = new SLList();
 
-        p.addFirst(40);
+//        p.addFirst(40);
 
-        p.addLast(50);
+//        p.addLast(50);
 
-//        int result = p.first.next.next.item;
+          p.addLast(52);
+
+
 
         System.out.println(p.size());
 
         System.out.println(p.getFirst());
+
+        System.out.println(p.sizeFast());
+
     }
 }
