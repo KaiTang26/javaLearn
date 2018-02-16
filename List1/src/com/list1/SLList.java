@@ -20,7 +20,8 @@ public class SLList {
     private int count;
 
     public SLList(int num){
-        first = new Lnode(num, null);
+        first = new Lnode(666,null);
+        first.next = new Lnode(num, null);
 
         count =1;
     }
@@ -36,7 +37,7 @@ public class SLList {
 
     public void addFirst(int num){
 
-        first = new Lnode(num, first);
+        first.next = new Lnode(num, first.next);
 
         count++;
 

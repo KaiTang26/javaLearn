@@ -16,5 +16,16 @@ public class Client {
 
         controller.handlePensions(ppl);
 
+        print("2018", "yi", "qi","8");
+
+    }
+
+
+    public static void print(String... args){
+
+        for(int i = 0; i < args.length; i++){
+
+            System.out.println(args[i]);
+        }
     }
 }
