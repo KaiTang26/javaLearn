@@ -1,0 +1,6 @@
+
+public class LoginControllerTest {
+	
+	private static loginController Lc;
+
+}

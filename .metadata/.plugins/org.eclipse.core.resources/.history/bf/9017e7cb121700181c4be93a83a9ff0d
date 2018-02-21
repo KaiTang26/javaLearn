@@ -1,0 +1,25 @@
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+public class LoginControllerTest {
+	
+	private static loginController Lc;
+	
+	@Mock
+	private static Validator val;
+	
+	
+	@Mock
+	private static View view;
+	
+	@BeforeClass
+	public static void setup(){
+		Lc = new loginController(mockView,mockVal);
+		
+		LoginControllerTest lct = new LoginControllerTest();
+		
+		MockitoAnnotations.initMocks(lct);
+	}
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.fdmgroup.pointTest.pointTest&apos; to &apos;PointUtilTest&apos;&#x0A;- Original project: &apos;PointCalculation&apos;&#x0A;- Original element: &apos;com.fdmgroup.pointTest.pointTest&apos;&#x0A;- Renamed element: &apos;com.fdmgroup.pointTest.PointUtilTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;pointTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/test&lt;com.fdmgroup.pointTest{pointTest.java[pointTest" matchStrategy="1" name="PointUtilTest" qualified="false" references="true" similarDeclarations="false" stamp="1519231159926" textual="false" version="1.0"/>
+</session>

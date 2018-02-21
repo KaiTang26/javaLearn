@@ -1,0 +1,37 @@
+import org.junit.Assert;
+import org.junit.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import static org.mockito.Mockito.*;
+
+public class LoginControllerTest {
+	
+	private static loginController Lc;
+	
+	@Mock
+	private static Validator mockval;
+	
+	
+	@Mock
+	private static View mockView;
+	
+	@BeforeClass
+	public static void setup(){
+		Lc = new loginController(mockView,mockVal);
+		
+		LoginControllerTest lct = new LoginControllerTest();
+		
+		MockitoAnnotations.initMocks(lct);
+		
+		when(mockView.getUserInput()).thenReturn("abcd");
+	}
+	
+	@Test
+	public void test(){
+		
+		 int result = basket.add(1, 3);
+		Assert.assertEquals(6, result);
+	}
+	
+
+}

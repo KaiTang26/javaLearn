@@ -1,0 +1,15 @@
+package com.fdmgroup.pointTest;
+
+public class pointTest {
+	
+	private Point point1;
+	private PointUtil pu;
+	
+	@BeforeClass
+	public static setup(){
+		
+	}
+	
+
+
+}

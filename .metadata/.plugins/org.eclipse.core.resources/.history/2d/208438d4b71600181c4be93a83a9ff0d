@@ -1,0 +1,16 @@
+
+import static org.junit.Assert.*;
+
+public class BasketTest {
+	
+	private Basket basket;
+	
+	@Test
+	public void test(){
+		
+	}
+	
+	
+	
+
+}

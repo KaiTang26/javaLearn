@@ -1,0 +1,23 @@
+package com.fdmgroup.pointTest;
+
+import org.junit.BeforeClass;
+
+public class pointTest {
+	
+	private points point1;
+	private points point2;
+	private PointUtil pu;
+	
+	@BeforeClass
+	public static void setup(){
+		point1 = new points(1,2);
+		point2 = new points(4,5);
+		pu = new PointUtil();
+		
+		System.out.println("set up the test for point utility");
+		
+	}
+	
+
+
+}

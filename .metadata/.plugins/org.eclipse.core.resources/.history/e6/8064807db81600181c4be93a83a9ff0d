@@ -1,0 +1,23 @@
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+
+
+
+public class BasketTest {
+	
+	private Basket basket;
+	
+	@BeforeClass
+	
+	public static void beforeClass(){
+		System.out.println("before class");
+		
+	}
+	
+
+	
+	
+
+}

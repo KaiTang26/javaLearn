@@ -1,0 +1,21 @@
+
+public class loginController {
+	
+	private View view;
+	private Validator val;
+	
+
+	public loginController(View mockView, Validator mockVal) {
+		// TODO Auto-generated constructor stub
+		this.view = mockView;
+		this.val = mockVal;
+	}
+
+	public void handle() {
+		String input = view.getUserInput();
+		this.val.validate(input);
+	}
+	
+	
+
+}

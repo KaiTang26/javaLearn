@@ -1,0 +1,12 @@
+package com.fdmgroup.pointTest;
+
+public class points {
+	private int x;
+	
+	private int y;
+
+	public points(int i, int j) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

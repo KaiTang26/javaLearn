@@ -1,0 +1,10 @@
+
+public class loginController {
+
+	public loginController(View mockView, Validator mockVal) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}
