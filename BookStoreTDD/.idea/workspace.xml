@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb2b7b94-42c8-43bb-b825-14e3183837c8" name="Default" comment="" />
+    <list default="true" id="f0484dda-4cf5-49bf-a190-50f514d253d5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,29 +15,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Artithmetic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Artithmetic.java">
+      <file leaf-file-name="Basket.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Basket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#61#62#0" expanded="true" />
-                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArtithmeticTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/ArtithmeticTest.java">
+      <file leaf-file-name="BasketTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/BasketTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="-170">
+              <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding>
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#1006#1007#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checkout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Checkout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckoutTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/CheckoutTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="e#2185#2186#0" expanded="true" />
+                <element signature="e#2233#2234#0" expanded="true" />
+                <element signature="e#2284#2285#0" expanded="true" />
+                <element signature="e#2333#2334#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Books.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,10 +101,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/AriththmeticTest.java" />
-        <option value="$PROJECT_DIR$/test/ArithmeticTest.java" />
-        <option value="$PROJECT_DIR$/src/Artithmetic.java" />
-        <option value="$PROJECT_DIR$/test/ArtithmeticTest.java" />
+        <option value="$PROJECT_DIR$/src/Books.java" />
+        <option value="$PROJECT_DIR$/src/Basket.java" />
+        <option value="$PROJECT_DIR$/test/BasketTest.java" />
+        <option value="$PROJECT_DIR$/src/Checkout.java" />
+        <option value="$PROJECT_DIR$/test/CheckoutTest.java" />
       </list>
     </option>
   </component>
@@ -88,25 +129,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="BookStoreTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookStoreTDD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="BookStoreTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookStoreTDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookStoreTDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookStoreTDD" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -158,15 +205,55 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="ArtithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TDD" />
+      <module name="BookStoreTDD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ArtithmeticTest" />
+      <option name="MAIN_CLASS_NAME" value="BasketTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CheckoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="BookStoreTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="BookStoreTDD" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckoutTest" />
+      <option name="METHOD_NAME" value="test_CalculatePrice_ReturnsPrice_forTwoBooks" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -238,9 +325,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BasketTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArtithmeticTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BasketTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,23 +346,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb2b7b94-42c8-43bb-b825-14e3183837c8" name="Default" comment="" />
-      <created>1519155149199</created>
+      <changelist id="f0484dda-4cf5-49bf-a190-50f514d253d5" name="Default" comment="" />
+      <created>1519157115858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1519155149199</updated>
+      <updated>1519157115858</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArtithmeticTest - 2018.02.20 at 15h 00m 16s.xml">
-      <configuration name="ArtithmeticTest" configurationId="JUnit" />
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 02m 04s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArtithmeticTest - 2018.02.20 at 15h 01m 25s.xml">
-      <configuration name="ArtithmeticTest" configurationId="JUnit" />
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 02m 12s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArtithmeticTest - 2018.02.20 at 15h 01m 48s.xml">
-      <configuration name="ArtithmeticTest" configurationId="JUnit" />
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 04m 36s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 06m 42s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 07m 07s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 07m 27s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 10m 18s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 10m 35s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 11m 26s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckoutTest_test_CalculatePrice_ReturnsPrice_forTwoBooks - 2018.02.20 at 20h 11m 59s.xml">
+      <configuration name="CheckoutTest.test_CalculatePrice_ReturnsPrice_forTwoBooks" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -277,15 +392,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -312,34 +426,60 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/ArithmeticTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Artithmetic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ArtithmeticTest.java">
+    <entry file="file://$PROJECT_DIR$/test/BasketTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="-170">
+          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CheckoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -396,7 +536,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TDD</last-edited>
+          <last-edited>BookStoreTDD</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
