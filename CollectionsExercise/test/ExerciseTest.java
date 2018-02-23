@@ -11,8 +11,8 @@ import org.junit.Test;
 public class ExerciseTest {
 	
 	@Test
-	public void Q1(){
-		System.out.println("test case for Q1");
+	public void Q2(){
+		System.out.println("test case for Q2");
 		
 		List<String> input = new ArrayList<String>();
 		
@@ -33,11 +33,19 @@ public class ExerciseTest {
 	}
 	
 	@Test
-	public void Q2(){
-		System.out.println("test case for Q2");		
-		HashMap<String, Color> result = Exercise.Questions();
+	public void Q3(){
+		System.out.println("test case for Q3");		
+		HashMap<String, Color> result = Exercise.Question3();
 			
 		Assert.assertEquals(Color.BLACK, result.get("BLACK"));		
+	}
+	
+	@Test
+	public void Q4(){
+		System.out.println("test case for Q4");	
+		HashMap<Character, Integer> result = Exercise.Question4("HELLO THERE");
+	
+		Assert.assertEquals(new Integer(3), result.get(new Character('E')));		
 	}
 
 }
