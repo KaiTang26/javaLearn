@@ -47,5 +47,12 @@ public class ExerciseTest {
 	
 		Assert.assertEquals(new Integer(3), result.get(new Character('E')));		
 	}
+	
+	@Test
+	public void Q5(){
+		System.out.println("test case for Q5");
+		int result = Exercise.Question5("HELLO hello There THERE");
+		Assert.assertEquals(2, result);		
+	}
 
 }

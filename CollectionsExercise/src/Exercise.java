@@ -54,6 +54,36 @@ public class Exercise {
 		}
 		return result;
 	}
+
+//	Question 5
+	public static int Question5(String string) {
+		// TODO Auto-generated method stub
+		String input = string.toLowerCase();
+		String[] arr = input.replace("[^a-zA-Z]", "").split(" ");
+		
+		Set<String> holder = new HashSet<String>();
+		
+		int count = 0;
+		
+		for(String i: arr){
+			boolean test = holder.contains(i);
+		
+			if(!test){
+				holder.add(i);
+			}else{
+				count++;
+				
+			}
+			
+		}
+		
+		return count;
+	}
+	
+	
+	
+	
+	
 	
 	
 
