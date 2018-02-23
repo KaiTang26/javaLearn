@@ -1,4 +1,6 @@
+import java.awt.Color;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -27,17 +29,15 @@ public class ExerciseTest {
 		answer.add("Siyang");
 		answer.add("Wu");
 		
-		for(String i: input){	
-			System.out.println(i);
-		}
-		
-		for(String i: result){	
-			System.out.println(i);
-		}
-		
-		Assert.assertEquals(answer, result);
-			
+		Assert.assertEquals(answer, result);		
 	}
 	
+	@Test
+	public void Q2(){
+		System.out.println("test case for Q2");		
+		HashMap<String, Color> result = Exercise.Questions();
+			
+		Assert.assertEquals(Color.BLACK, result.get("BLACK"));		
+	}
 
 }
