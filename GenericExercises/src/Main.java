@@ -8,9 +8,10 @@ public class Main {
 		
 		System.out.println(pair.getFirst());
 		
-		LibraryBook<Integer, Book> book1 = new LibraryBook<Integer, Book>(1,new Book("Hello", "Kai"));
+		LibraryBook<Integer, goodBook> book1 = new LibraryBook<Integer, goodBook>(1,new goodBook("Hello", "Kai"));
 		
 		System.out.println(book1);
+		
 		
 	
 		
