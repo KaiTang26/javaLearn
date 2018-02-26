@@ -1,0 +1,34 @@
+package com.fdmgroup.defensiveCoding;
+
+public class Client {
+	
+	public static void main(String[] args){
+		
+		issueWithCasting();
+		
+		issueWithNullPointer();
+		
+		issueWithArithmetic();
+	}
+
+	private static void issueWithArithmetic() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void issueWithNullPointer() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void issueWithCasting() {
+		// TODO Auto-generated method stub
+		
+		NODefensiveCodin.toStringConvert("Hello!");
+		
+		NODefensiveCodin.toStringConvert(new Object());
+		
+		
+	}
+
+}

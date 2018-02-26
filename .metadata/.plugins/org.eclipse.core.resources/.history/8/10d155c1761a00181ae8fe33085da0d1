@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Pair<int, int> pair = new Pair<int, int>(1,2);
+		
+
+	}
+
+}

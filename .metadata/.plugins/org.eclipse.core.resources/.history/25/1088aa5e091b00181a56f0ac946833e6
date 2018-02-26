@@ -1,0 +1,10 @@
+package com.fdmgroup.defensiveCoding;
+
+public class NODefensiveCodin {
+	
+	public static void toStringConvert(Object object){
+		String str = (String) object;
+		
+	}
+
+}

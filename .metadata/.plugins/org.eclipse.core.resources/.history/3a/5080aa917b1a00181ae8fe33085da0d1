@@ -1,0 +1,13 @@
+import java.util.HashMap;
+
+public class LibraryBook <Integer, T extends Book>{
+	
+	private Integer ID;
+	private T bookItem;
+	
+	
+	
+	
+	
+
+}

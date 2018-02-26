@@ -664,3 +664,142 @@ Java Model Exception: Java Model Status [Unknown javadoc format for BeforeClass 
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2018-02-21 11:37:21.012
 !MESSAGE Unknown javadoc format for BeforeClass {key=Lorg/junit/BeforeClass;} [in BeforeClass.class [in org.junit [in /Users/kaitang/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar]]]
+!SESSION 2018-02-21 14:49:38.422 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-21 14:49:47.794
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-02-21 14:55:17.983
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+!SESSION 2018-02-23 13:14:15.500 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-23 13:14:26.912
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-02-23 13:32:42.025
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar
+
+!ENTRY org.eclipse.ui.workbench 4 2 2018-02-25 17:42:57.941
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.buildMethods(ClassScope.java:332)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.buildFieldsAndMethods(ClassScope.java:185)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildFieldsAndMethods(CompilationUnitScope.java:91)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:315)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.accept(HierarchyResolver.java:166)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:192)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:201)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getTypeOrPackage(Scope.java:3234)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getType(Scope.java:2946)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:51)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:495)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:594)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:590)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveSuperType(TypeReference.java:564)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.findSupertype(ClassScope.java:1320)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectSuperclass(ClassScope.java:952)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectTypeHierarchy(ClassScope.java:1113)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.connectTypeHierarchy(CompilationUnitScope.java:328)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:337)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:816)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:628)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyBuilder.buildSupertypes(HierarchyBuilder.java:116)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:151)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:315)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1286)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.SourceType.newSupertypeHierarchy(SourceType.java:743)
+	at org.eclipse.jdt.internal.core.SourceType.newSupertypeHierarchy(SourceType.java:695)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy(SuperTypeHierarchyCache.java:142)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy(SuperTypeHierarchyCache.java:94)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getMethodOverrideTester(SuperTypeHierarchyCache.java:103)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:167)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:132)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2018-02-25 17:42:57.983
+!MESSAGE Exception in Decorator. The 'Java Method Override Indicator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2018-02-25 17:42:57.983
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.buildMethods(ClassScope.java:332)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.buildFieldsAndMethods(ClassScope.java:185)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildFieldsAndMethods(CompilationUnitScope.java:91)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:315)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.accept(HierarchyResolver.java:166)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.askForType(LookupEnvironment.java:192)
+	at org.eclipse.jdt.internal.compiler.lookup.PackageBinding.getTypeOrPackage(PackageBinding.java:201)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getTypeOrPackage(Scope.java:3234)
+	at org.eclipse.jdt.internal.compiler.lookup.Scope.getType(Scope.java:2946)
+	at org.eclipse.jdt.internal.compiler.ast.SingleTypeReference.getTypeBinding(SingleTypeReference.java:51)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.internalResolveType(TypeReference.java:495)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:594)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveType(TypeReference.java:590)
+	at org.eclipse.jdt.internal.compiler.ast.TypeReference.resolveSuperType(TypeReference.java:564)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.findSupertype(ClassScope.java:1320)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectSuperclass(ClassScope.java:952)
+	at org.eclipse.jdt.internal.compiler.lookup.ClassScope.connectTypeHierarchy(ClassScope.java:1113)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.connectTypeHierarchy(CompilationUnitScope.java:328)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.completeTypeBindings(LookupEnvironment.java:337)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:816)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyResolver.resolve(HierarchyResolver.java:628)
+	at org.eclipse.jdt.internal.core.hierarchy.HierarchyBuilder.buildSupertypes(HierarchyBuilder.java:116)
+	at org.eclipse.jdt.internal.core.hierarchy.IndexBasedHierarchyBuilder.build(IndexBasedHierarchyBuilder.java:151)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.compute(TypeHierarchy.java:315)
+	at org.eclipse.jdt.internal.core.hierarchy.TypeHierarchy.refresh(TypeHierarchy.java:1286)
+	at org.eclipse.jdt.internal.core.CreateTypeHierarchyOperation.executeOperation(CreateTypeHierarchyOperation.java:90)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:724)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:790)
+	at org.eclipse.jdt.internal.core.SourceType.newSupertypeHierarchy(SourceType.java:743)
+	at org.eclipse.jdt.internal.core.SourceType.newSupertypeHierarchy(SourceType.java:695)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy(SuperTypeHierarchyCache.java:142)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getTypeHierarchy(SuperTypeHierarchyCache.java:94)
+	at org.eclipse.jdt.internal.corext.util.SuperTypeHierarchyCache.getMethodOverrideTester(SuperTypeHierarchyCache.java:103)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:167)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:132)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:260)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-02-26 10:04:10.207 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/kaitang/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-02-26 10:05:02.757
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2018-02-26 10:39:31.708
+!MESSAGE Server returned lastModified <= 0 for https://raw.github.com/guari/eclipse-ui-theme/master/com.github.eclipseuitheme.themes.updatesite/content.jar

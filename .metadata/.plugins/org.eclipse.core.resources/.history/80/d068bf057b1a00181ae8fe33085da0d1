@@ -1,0 +1,11 @@
+import java.util.HashMap;
+
+public class Library <Integer, T2>{
+	
+	private HashMap<Integer, T2> list = new HashMap<Integer,T2>();
+	
+	
+	
+	
+
+}

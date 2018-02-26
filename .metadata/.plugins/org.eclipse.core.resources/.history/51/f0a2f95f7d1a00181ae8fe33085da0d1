@@ -1,0 +1,19 @@
+
+public class goodBook extends Book{
+	private String name;
+	
+	private String author;
+
+	public goodBook(String name, String author) {
+		super(name, author);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "goodBook [name=" + name + ", author=" + author + "]";
+	}
+	
+	
+
+}

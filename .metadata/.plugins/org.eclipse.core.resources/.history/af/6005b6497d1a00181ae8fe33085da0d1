@@ -1,0 +1,14 @@
+
+public interface Book {
+	
+	private String name;
+	
+	private String author;
+
+	@Override
+	public String toString() {
+		
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+import java.util.HashMap;
+
+public class LibraryBook <Integer, T extends Book>{
+	
+	private Integer ID;
+	private T bookItem;
+	
+	public LibraryBook(Integer iD, T bookItem) {
+		super();
+		ID = iD;
+		this.bookItem = bookItem;
+	}
+	
+	
+	
+	
+	
+
+}
