@@ -6,6 +6,7 @@ import java.util.Set;
 
 import exceptions.ItemInRecallException;
 import exceptions.NotInItemListException;
+import exceptions.quantityException;
 
 public class Inventory {
 	
@@ -39,12 +40,16 @@ public class Inventory {
 	}
 	
 	
-	public static void sellItem(String item, int quantity) throws NotInItemListException, ItemInRecallException{
+	public static void sellItem(String item, int quantity) throws NotInItemListException, ItemInRecallException, quantityException{
 		if(!itemList.contains(item)){
 			throw new NotInItemListException("Item not in list");
 			
 		}else if(recall.contains(item)){
 			throw new ItemInRecallException("Item in recall");
+			
+		}else if(quantity >storage.get(item)){
+			
+			throw new quantityException("not enough");
 			
 		}else{
 			storage.put(item, storage.get(item)-quantity);
