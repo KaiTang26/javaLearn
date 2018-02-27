@@ -10,11 +10,18 @@ public class Application {
 	
 	private String status;
 
-	public Application(Student student, Major major, String status) {
+	public Application(Student student, Major major) {
 		super();
 		this.student = student;
 		this.major = major;
 		this.status = "processing";
+	}
+	
+	public Application(Student student, Major major, String status) {
+		super();
+		this.student = student;
+		this.major = major;
+		this.status = "approved";
 	}
 	
 	private boolean checkStatus(String status){

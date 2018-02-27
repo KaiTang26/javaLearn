@@ -1,14 +1,17 @@
 package view;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
+import controler.AppController;
 import controler.MajorController;
 import controler.UserController;
 import model.Adminstrator;
+import model.Application;
 import model.Major;
 import model.Student;
 
@@ -26,7 +29,7 @@ public class View {
 		UserController.addUser(new Student("Tim", "123", 3.4));
 		UserController.addUser(new Adminstrator("Kai", "123"));
 		
-		
+		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Science", "hard"), "approved"));
 		
 		
 		System.out.println("--------------------------------");
@@ -135,13 +138,17 @@ public class View {
 					       System.out.println("Major index: "+me.getKey() + 
 					       " & " +me.getValue());
 					   }
+					System.out.println("--------------------------------");
+					System.out.println("Please login by useing name and password");
+					System.out.println("major index:");
+					int majorIndex=sc.nextInt();
 					
-					System.out.println(majorMap.get(2));
-					
+					apply(majorIndex, new Student(name, password, GPA));
 						
 				}else if(action2.equals("h")){
-					
-					System.out.println("history");
+					System.out.println("--------------------------------");
+					System.out.println("History of application:");
+					viewHistory();
 					
 					
 				}else if(action2.equals("o")){
@@ -182,6 +189,30 @@ public class View {
 			Student checkSt = new Student(name,password,3.4);
 			
 			return UserController.checkStudentList(checkSt);
+		}
+		
+	}
+	
+	public static void apply(int i, Student student){
+		HashMap<Integer, Major> majorMap = MajorController.getMajorMap();
+		
+		if(!(i==1 || i==2 || i==3 || i==4)){
+			System.out.println("please only input existing major index");
+			
+		}else{
+			AppController.addApp(new Application(student, majorMap.get(i)));
+			
+			System.out.println("Application submited");
+			
+		}
+		
+	}
+	
+	public static void viewHistory(){
+		ArrayList<Application> appList = AppController.getAppList();
+		
+		for(Application i : appList){
+			System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
 		}
 		
 	}
