@@ -32,6 +32,8 @@ public class View {
 		
 		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Science", "hard"), "approved"));
 		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Arts", "Not very hard")));
+		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Business", "Make lots of money")));
+		
 		
 		
 		System.out.println("--------------------------------");
@@ -50,12 +52,12 @@ public class View {
 		
 		
 		if(status.equals("g")){
-			
-			System.out.println("this guest");
+			System.out.println("--------------------------------");
+			System.out.println("Thank you so much for interested in our University, all of our major listed as above. Have a good day!");
 			
 		}else if(status.equals("a")){
-			
-			System.out.println("this adminstrator");
+			System.out.println("--------------------------------");
+			System.out.println("Adminstrator Login page");
 			System.out.println("Please login by useing name and password");
 			System.out.println("Name:");
 			String name=sc.next();
@@ -63,22 +65,64 @@ public class View {
 			String password=sc.next();
 			
 			login("a", name, password,0);
-			System.out.println(login("a", name, password, 0));
 			
+			if(!login("a", name, password,0)){
+				System.out.println("name or password wrong");
+				System.exit(0);
+			}
 			
+			System.out.println("Adminstrator logged in");
+			boolean next = true;
 			
-			
-			
-			
-			
-			
-			
-			
+			while(next){
+				System.out.println("view all application(v) or process application(p)  ?");
+				String action4=sc.next();
+				
+				if(action4.equals("v")){
+					System.out.println("--------------------------------");
+					System.out.println("View:");
+					viewHistory("all");
+					
+				}else if(action4.equals("p")){
+					System.out.println("--------------------------------");
+					System.out.println("Process application:");
+					ArrayList<Application> appList = AppController.getAppList();
+					for(Application i : appList){
+						
+						if(i.getStatus().equals("processing")){
+							System.out.println("Name: "+i.getStudent().getName()+" & GPA: "+i.getStudent().getGPA()+"  & Major applied: "+i.getMajor().getObject());
+							System.out.println("Do you want to give offer to this student(y/n):");
+							String givOffer=sc.next();
+							if(givOffer.equals("y")){
+								try {
+									i.setStatus("approved");
+								} catch (StatusException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+									e.getMessage();
+								}
+							}
+						}
+						
+					}
+					
+				}else{
+					System.out.println("wrong action");
+					System.exit(0);
+				}
+				
+				System.out.println("continue(c) or exit(e)");
+				String action3=sc.next();
+					if(action3.equals("e")){
+						System.out.println("Thanks bye");
+						System.exit(0);
+					}
+			}
 			
 		}else if(status.equals("s")){
 			System.out.println("--------------------------------");
 			System.out.println("Student Channel");
-			System.out.println("singup(s) or login(l) ?");
+			System.out.println("signup(s) or login(l) ?");
 			String action1=sc.next();
 			String name=null;
 			String password =null;
@@ -150,7 +194,7 @@ public class View {
 				}else if(action2.equals("h")){
 					System.out.println("--------------------------------");
 					System.out.println("History of application:");
-					viewHistory();
+					viewHistory(name);
 					
 					
 				}else if(action2.equals("o")){
@@ -159,7 +203,7 @@ public class View {
 					ArrayList<Application> appList = AppController.getAppList();
 					for(Application i : appList){
 						
-						if(i.getStatus().equals("approved")){
+						if(i.getStatus().equals("approved") && i.getStudent().getName().equals(name)){
 							System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
 							System.out.println("Do you want to accept this offer(y/n):");
 							String accOffer=sc.next();
@@ -230,11 +274,20 @@ public class View {
 		
 	}
 	
-	public static void viewHistory(){
+	public static void viewHistory(String check){
 		ArrayList<Application> appList = AppController.getAppList();
 		
 		for(Application i : appList){
-			System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
+			
+			if(check.equals(i.getStudent().getName())){
+				System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
+			}else if(check.equals("all")){
+				
+				System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
+			}else{
+				
+			}
+			
 		}
 		
 	}
