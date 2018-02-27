@@ -1,6 +1,10 @@
 package view;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 import controler.MajorController;
 import controler.UserController;
@@ -121,10 +125,20 @@ public class View {
 				String action2=sc.next();
 				
 				if(action2.equals("a")){
+					System.out.println("--------------------------------");
+					System.out.println("Apply:");
+					HashMap<Integer, Major> majorMap = MajorController.getMajorMap();
+					Set entrySet = majorMap.entrySet();
+					Iterator it = entrySet.iterator();
+					while(it.hasNext()){
+					       Map.Entry me = (Map.Entry)it.next();
+					       System.out.println("Major index: "+me.getKey() + 
+					       " & " +me.getValue());
+					   }
 					
-					System.out.println("apply");
+					System.out.println(majorMap.get(2));
 					
-					
+						
 				}else if(action2.equals("h")){
 					
 					System.out.println("history");

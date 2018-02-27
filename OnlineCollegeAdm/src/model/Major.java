@@ -19,6 +19,13 @@ public class Major {
 	public String getDescription() {
 		return description;
 	}
+
+	@Override
+	public String toString() {
+		return "Major: " + object + "  &  description: " + description;
+	}
+	
+	
 	
 
 }
