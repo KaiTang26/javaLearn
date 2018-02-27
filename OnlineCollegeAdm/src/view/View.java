@@ -10,6 +10,7 @@ import java.util.Set;
 import controler.AppController;
 import controler.MajorController;
 import controler.UserController;
+import exceptions.StatusException;
 import model.Adminstrator;
 import model.Application;
 import model.Major;
@@ -30,6 +31,7 @@ public class View {
 		UserController.addUser(new Adminstrator("Kai", "123"));
 		
 		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Science", "hard"), "approved"));
+		AppController.addApp(new Application(new Student("Tim", "123", 3.4), new Major("Arts", "Not very hard")));
 		
 		
 		System.out.println("--------------------------------");
@@ -152,8 +154,28 @@ public class View {
 					
 					
 				}else if(action2.equals("o")){
+					System.out.println("--------------------------------");
+					System.out.println("Accept offer:");
+					ArrayList<Application> appList = AppController.getAppList();
+					for(Application i : appList){
+						
+						if(i.getStatus().equals("approved")){
+							System.out.println("Name: "+i.getStudent().getName()+"  & Major applied: "+i.getMajor().getObject()+"  & Current status: "+i.getStatus());
+							System.out.println("Do you want to accept this offer(y/n):");
+							String accOffer=sc.next();
+							if(accOffer.equals("y")){
+								try {
+									i.setStatus("accepted");
+								} catch (StatusException e) {
+									// TODO Auto-generated catch block
+									e.printStackTrace();
+									e.getMessage();
+								}
+							}
+						}
+						
+					}
 					
-					System.out.println("offer");
 					
 				}else{
 					System.out.println("wrong action");
@@ -216,5 +238,7 @@ public class View {
 		}
 		
 	}
+	 
+
 
 }
