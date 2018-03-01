@@ -1,0 +1,24 @@
+package exceptions;
+
+public class NotInItemListException extends Exception{
+	
+	private static final long serialVersionUID = 1L;
+
+	public NotInItemListException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public NotInItemListException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public NotInItemListException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

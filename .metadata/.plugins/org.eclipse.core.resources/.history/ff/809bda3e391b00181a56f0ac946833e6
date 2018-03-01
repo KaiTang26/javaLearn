@@ -1,0 +1,17 @@
+package controler;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import model.Major;
+import model.User;
+
+public class MajorController {
+	
+	private static HashMap<Integer, Major> majorMap = new HashMap<Integer, Major>();
+	
+	public static addMap(int key, Major major){
+		
+	}
+
+}

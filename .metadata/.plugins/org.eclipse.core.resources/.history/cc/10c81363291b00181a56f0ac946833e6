@@ -1,0 +1,49 @@
+package objects;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Order {
+	
+	private List<OrderLine> orderline;
+	
+	private String OrderName;
+
+	public Order() {
+		super();
+		
+		orderline = new ArrayList<OrderLine>();
+		// TODO Auto-generated constructor stub
+	}
+
+	public void addOrder(OrderLine item){
+		
+		orderline.add(item);
+		
+	} 
+	
+	public void removeOrder(){
+		
+		orderline.clear();
+		
+	}
+
+	public List<OrderLine> getOrderline() {
+		return orderline;
+	}
+
+	
+
+	public String getOrderName() {
+		return OrderName;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+
+}

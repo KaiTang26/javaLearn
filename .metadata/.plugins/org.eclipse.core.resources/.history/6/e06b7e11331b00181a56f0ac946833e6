@@ -1,0 +1,22 @@
+package model;
+
+public class Student extends User{
+
+	public Student(String name, String password) {
+		super(name, password);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package controler;
+
+import java.util.ArrayList;
+
+import model.User;
+
+public class MajorController {
+	
+	private static HashMap<User> studentList = new HashMap<User>();
+
+}

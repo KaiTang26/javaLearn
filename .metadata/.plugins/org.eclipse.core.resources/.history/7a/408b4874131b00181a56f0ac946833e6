@@ -1,0 +1,13 @@
+package checkedexception;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		Bank bank = new Bank();
+		
+		Account account = bank.registerNewAccount();
+		
+		account.setAmount(new BigDecimal(30));
+	}
+
+}

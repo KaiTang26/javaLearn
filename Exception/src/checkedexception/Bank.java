@@ -1,0 +1,46 @@
+package checkedexception;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bank {
+	
+	private List<Account> accounts;
+
+	public Bank() {
+		super();
+		accounts = new ArrayList<Account>();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Account registerNewAccount(){
+		Account account = new Account();
+		
+		accounts.add(account);
+		
+		return account;
+	}
+	
+	public void withdraw(Account account, BigDecimal amountRequested) throws insufficientFundException{
+		
+		if(amountRequested.compareTo(account.getAmount())>0){
+			throw new insufficientFundException("not ");
+		}else{
+			account.setAmount(account.getAmount().subtract(amountRequested));
+			
+			System.out.println("withdraw ok");
+		}	
+		
+	}
+	
+	public void deposit(Account account, BigDecimal amountToBeDeposited){
+		account.setAmount(account.getAmount().add(amountToBeDeposited));
+		System.out.println("deposit ok");
+		
+	}
+	
+	
+	
+
+}

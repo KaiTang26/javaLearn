@@ -1,0 +1,25 @@
+package objects;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Inventory {
+	
+	private static HashMap<String, Integer> storage = new HashMap<String, Integer>();
+	private static HashSet<String> recall = new HashSet<String>();
+	
+	private static final String Ball = "Ball";
+	private static final String PaintedBlock = "PaintedBlock";
+	private static final String Train = "Train";
+	private static final String Airplane = "Airplane";
+	
+	public static boolean addItemToStorage(String item, int quantity){
+		
+		
+	}
+	
+	
+	
+	
+
+}

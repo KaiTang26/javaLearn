@@ -1,0 +1,7 @@
+
+public class CounterThread {
+	
+	private int min = 0;
+	
+
+}

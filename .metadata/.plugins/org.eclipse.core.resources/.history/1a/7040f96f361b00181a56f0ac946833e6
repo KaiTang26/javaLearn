@@ -1,0 +1,11 @@
+package controler;
+
+import java.util.ArrayList;
+
+public class UserController {
+	
+	private static ArrayList<User> studenList;
+	
+	
+
+}

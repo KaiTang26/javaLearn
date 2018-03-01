@@ -1,0 +1,24 @@
+package controler;
+
+import java.util.ArrayList;
+
+import model.Adminstrator;
+import model.Application;
+import model.Student;
+import model.User;
+
+
+public class AppController {
+	private static ArrayList<Application> appList = new ArrayList<Application>();
+	
+	public static void addApp(User user) {
+		if(user instanceof Student){
+			
+			studentList.add(user);
+			
+		}else if(user instanceof Adminstrator){
+			AdminList.add(user);
+		}
+	}
+
+}

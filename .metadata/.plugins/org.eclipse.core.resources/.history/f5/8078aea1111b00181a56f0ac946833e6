@@ -1,0 +1,28 @@
+package checkedexception;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bank {
+	
+	private List<Account> accounts;
+
+	public Bank() {
+		super();
+		accounts = new ArrayList<Account>;
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Account registerNewAccount(){
+		Account account = new Account();
+		
+		accounts.add(account);
+		
+		return account;
+	}
+	
+	
+	
+	
+
+}

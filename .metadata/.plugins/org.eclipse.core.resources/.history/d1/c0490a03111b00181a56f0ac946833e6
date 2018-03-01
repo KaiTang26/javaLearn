@@ -1,0 +1,11 @@
+package checkedexception;
+
+import java.math.BigDecimal;
+
+public class Account {
+	
+	public int accountNumber;
+	public BigDecimal amount;
+	
+
+}

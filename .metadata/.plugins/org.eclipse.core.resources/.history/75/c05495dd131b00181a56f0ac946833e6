@@ -1,0 +1,19 @@
+package checkedexception;
+
+import java.math.BigDecimal;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		Bank bank = new Bank();
+		
+		Account account = bank.registerNewAccount();
+		
+		account.setAmount(new BigDecimal(30));
+		
+		account.setAccountNumber(123);
+		
+		bank.withdraw(account, new BigDecimal(40));
+	}
+
+}

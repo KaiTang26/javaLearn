@@ -1,0 +1,7 @@
+
+public class Main {
+	
+	CounterThread ct1 = new CounterThread(1,10, 100, "#");
+	
+	CounterThread ct2 = new CounterThread(10,10, 100, "#");
+}

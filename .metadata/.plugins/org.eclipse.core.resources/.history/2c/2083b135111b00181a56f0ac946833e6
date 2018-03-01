@@ -1,0 +1,11 @@
+package checkedexception;
+
+import java.util.List;
+
+public class Bank {
+	
+	private List<Account> accounts;
+	
+	
+
+}

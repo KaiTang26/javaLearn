@@ -1,0 +1,10 @@
+
+public class CounterThread {
+	
+	private int min;
+	private int max;
+	private long sleepTime;
+	
+	
+
+}

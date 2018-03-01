@@ -1,0 +1,8 @@
+package model;
+
+public class Major {
+	private String object;
+	
+	private String description;
+
+}

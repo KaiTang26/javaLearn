@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import model.Major;
+
+public class Tester {
+	@Test
+	public void TestForMajor(){
+		System.out.println("test case for major");
+		Major result = new Major("Engineering","Very hard");
+		
+		
+		Assert.assertEquals("", result.getObject());		
+	}
+
+}

@@ -1,0 +1,5 @@
+package checkedexception;
+
+public class insufficientFundException extend Exception{
+
+}

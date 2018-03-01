@@ -1,0 +1,14 @@
+package controler;
+
+import java.util.ArrayList;
+
+import model.User;
+
+public class UserController {
+	
+	private static ArrayList<User> studenList;
+	private static ArrayList<User> AdminList;
+	
+	
+
+}

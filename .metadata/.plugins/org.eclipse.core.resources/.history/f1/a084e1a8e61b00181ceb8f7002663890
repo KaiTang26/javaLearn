@@ -1,0 +1,10 @@
+package controler;
+
+import java.util.ArrayList;
+
+import model.User;
+
+public class AppController {
+	private static ArrayList<Application> appList = new ArrayList<Application>();
+
+}

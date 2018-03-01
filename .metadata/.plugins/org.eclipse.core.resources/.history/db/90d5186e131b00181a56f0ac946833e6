@@ -1,0 +1,11 @@
+package checkedexception;
+
+public class Client {
+	
+	public static void main(String[] args) {
+		Bank bank = new Bank();
+		
+		Account account = bank.registerNewAccount();
+	}
+
+}

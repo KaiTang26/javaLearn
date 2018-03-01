@@ -1,7 +1,0 @@
-package com.fdmgroup.pointTest;
-
-public class pointTest {
-	
-	private Point point1;
-
-}

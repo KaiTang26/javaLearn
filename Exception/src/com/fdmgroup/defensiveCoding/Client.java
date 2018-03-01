@@ -4,22 +4,29 @@ public class Client {
 	
 	public static void main(String[] args){
 		
-		issueWithCasting();
+//		issueWithCasting();
 		
 		issueWithNullPointer();
 		
-		issueWithArithmetic();
+//		issueWithArithmetic();
 	}
 
 	private static void issueWithArithmetic() {
 		// TODO Auto-generated method stub
+		NODefensiveCodin.arithmeticCheck(4, 2);
+		
+		NODefensiveCodin.arithmeticCheck(4, 0);
+		
+		Defensive.arithmeticCheck(4, 0);
+		
 		
 	}
 
 	private static void issueWithNullPointer() {
 		// TODO Auto-generated method stub
-		
-		
+		NODefensiveCodin.nullPointerCheck("Any Object");
+		NODefensiveCodin.nullPointerCheck(null);
+		Defensive.nullPointerCheck(null);
 		
 	}
 

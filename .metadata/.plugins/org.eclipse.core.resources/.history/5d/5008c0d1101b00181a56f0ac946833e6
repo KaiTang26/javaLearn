@@ -1,0 +1,7 @@
+package checkedexception;
+
+public class Account {
+	
+	public int accountNumber;
+
+}

@@ -1,9 +1,0 @@
-
-public class View {
-
-	public Object getUserInput() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-}

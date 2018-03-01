@@ -1,0 +1,7 @@
+package checkedexception;
+
+public class Bank {
+	
+	private List<Account> accounts;
+
+}

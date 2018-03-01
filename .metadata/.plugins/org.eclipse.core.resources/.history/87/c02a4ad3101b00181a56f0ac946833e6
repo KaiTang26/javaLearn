@@ -1,0 +1,8 @@
+package checkedexception;
+
+public class Account {
+	
+	public int accountNumber;
+	public BigDecimal amount;
+
+}

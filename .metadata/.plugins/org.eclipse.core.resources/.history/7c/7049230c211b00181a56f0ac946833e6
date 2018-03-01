@@ -1,0 +1,20 @@
+package client;
+
+import exceptions.NotInItemListException;
+import objects.Inventory;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Inventory.addItemToStorage("Kai", 100);
+		} catch (NotInItemListException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			e.getMessage();
+		}
+
+	}
+
+}

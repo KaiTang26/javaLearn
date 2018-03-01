@@ -1,0 +1,24 @@
+package model;
+
+public class Major {
+	private String object;
+	
+	private String description;
+
+	public Major(String object, String description) {
+		super();
+		this.object = object;
+		this.description = description;
+	}
+
+	public String getObject() {
+		return object;
+	}
+
+
+	public String getDescription() {
+		return description;
+	}
+	
+
+}

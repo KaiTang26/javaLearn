@@ -1,0 +1,15 @@
+package objects;
+
+import java.util.List;
+
+public class Order {
+	
+	private List<OrderLine> orderline;
+	
+	private String OrderName;
+	
+	
+	
+	
+
+}

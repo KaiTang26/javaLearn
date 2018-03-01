@@ -1,0 +1,22 @@
+package model;
+
+public class Application {
+	
+	private Student student;
+	
+	private Major major;
+	
+	private String status;
+
+	public Application(Student student, Major major, String status) {
+		super();
+		this.student = student;
+		this.major = major;
+		this.status = status;
+	}
+	
+	private boolean checkStatus(String status){
+		
+	}
+
+}

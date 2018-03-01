@@ -1,0 +1,19 @@
+package model;
+
+public class Student extends User{
+	
+	private String GPA;
+
+	public Student(String name, String password, String GPA) {
+		super(name, password);
+		// TODO Auto-generated constructor stub
+		this.GPA = GPA;
+	}
+
+	public String getGPA() {
+		return GPA;
+	}
+
+
+
+}
